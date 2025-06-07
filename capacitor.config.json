@@ -1,0 +1,33 @@
+{
+	"appId": "app.lovable.e2a197268aa046eb9c69f67f10ae7a1c",
+	"appName": "hairywalletmovil",
+	"webDir": "dist",
+	"server": {
+		"url": "https://e2a19726-8aa0-46eb-9c69-f67f10ae7a1c.lovableproject.com?forceHideBadge=true",
+		"cleartext": true
+	},
+	"plugins": {
+		"CapacitorHttp": {
+			"enabled": true
+		},
+		"StatusBar": {
+			"style": "dark",
+			"backgroundColor": "#0A192F"
+		},
+		"SplashScreen": {
+			"launchShowDuration": 2000,
+			"backgroundColor": "#0A192F",
+			"showSpinner": false
+		},
+		"App": {
+			"launchUrl": ""
+		}
+	},
+	"android": {
+		"allowMixedContent": true,
+		"captureInput": true
+	},
+	"ios": {
+		"contentInset": "automatic"
+	}
+}
